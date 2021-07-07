@@ -1,0 +1,46 @@
+/* Reset du css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,75px); /* ici, on peut utiliser "repeat" puisque toutes les cases ont la même hauteur et largeur)
+    /* grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px; */
+    grid-gap: 10px;
+    gap: 10px;
+    }
+.grid>div{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    }
+.one{
+    background-color: rgb(179,49,57);
+    }
+.two{
+    background-color: rgb(52,168,165);
+    }
+.three{
+    background-color: rgb(48,153,122);
+    }
+.four{
+    background-color: rgb(107,71,143);
+    }
+.five{
+    background-color: rgb(218,111,43);
+    }
+.six{
+    background-color: rgb(61,139,177);
+    }
+.seven{
+    background-color: rgb(225,62,63);
+}
+.eight{
+    background-color: rgb(63,166,38);
+}
+.nine{
+    background-color: rgb(68,100,161);
+}
